@@ -4,16 +4,6 @@ import { useState } from 'react'
 import { graphQLClient } from '../../graphql/client'
 import {  GET_ALL_VIDEOS, GET_VIDEO_DETAILS } from '../../graphql/query'
 
-/*const changeToSeen = async (slug) => {
-    await fetch('/api/changeToSeen', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({slug})
-    })
-}*/
-
 const Video = ({video}) => {
     const [watching, setWatching] = useState(false)
     return (
