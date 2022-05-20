@@ -1,0 +1,23 @@
+{
+  "name": "disney-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next dev",
+    "build": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "graphql": "^16.5.0",
+    "graphql-request": "^4.2.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
