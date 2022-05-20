@@ -23,12 +23,14 @@ Create a .env file in root of project with the following variables:
 
 ``
   GRAPHQL_HOST={YOUR GRAPHQL HOST}
-  GRAPHQL_TOKEN={YOUR GRAPHQL TOKEN AUTHENTICATION}
 `` 
+``
+   GRAPHQL_TOKEN={YOUR GRAPHQL TOKEN AUTHENTICATION}
+``
 
 ## Starting project
 
-after these steps run one of these commands to start localy the project:
+After these steps run one of these commands to start localy the project:
 
 ``
   npm dev
